@@ -27,7 +27,7 @@ int main() {
     printf("Será necessário que insire as informações para a primeira carta\n");
     
     printf("Estado: \n");
-    scanf("%c", &estado);
+    scanf(" %c", &estado);
 
     printf("Nome da cidade: \n");
     scanf("%s", nome);
@@ -52,7 +52,7 @@ int main() {
     printf("Agora insire as informações para a segunda carta\n");
 
     printf("Estado: \n");
-    scanf("%c", &estado2);
+    scanf(" %c", &estado2);
 
     printf("Nome da cidade: \n");
     scanf("%s", nome2);
